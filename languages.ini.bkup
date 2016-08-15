@@ -1,0 +1,149 @@
+[en]
+lang=English
+label1=Pick the CSV file for convertation
+label3=Specify fields mapping
+label11=Specify VCF file saving folder
+label12=Specify output VCF file name
+command4=Exit
+command5=About
+label13=CSV file fields delimiter char
+optiongroup1.option1=TAB char
+optiongroup1.option2=SPACE char
+optiongroup1.option3=specify your own char:
+optiongroup2.option1=Windows cyrillic (CP 1251) / don't know
+label14=Specify input CSV file codepage
+optiongroup3.option1=Windows cyrillic (CP 1251) / don't know
+label15=Specify output CSV file codepage
+label16=Resulting standard form for phone numbers?
+label17=Output every contact as a separate file (for china phones specially)
+label18=Adapt for import to Gmail 
+optiongroup4.option3=don't encode (left as is) **
+label19=Encode 'NAME', 'F. NAME' & 'JOB' fields to:
+label20=** - try to check this option if you have troubles with import to Gmail
+check4= Consider the first line of .CSV file as a contact?
+label21=Encode entire(all) .VCF file(s) to selected codepage
+label23=* - if F.NAME field is absent in selected file or it's value equals to NAME field - you can leave the dropdown list for F.NAME empty (it will be filled with value from NAME field)
+label24=type
+label25=Add BOM-mark when encoding entire output file
+
+label12.tltp=File extension can be omitted. If you'll omitt the file name program will automaticly generate it in the following format: DD_MM_YYYY_HHxMMxSS, like 01_01_2011_13x29x34.vcf
+check1.tltp=Phone numbers will be given to a standard international format like a "+3(7)80..." or "0_operator_code"
+check2.tltp=If your phone doesn't accept vCard with all of the contacts and only accepts them one-by-one in a separate files - check this option
+label13.tltp=If your CSV's fields are separated with the symbol other than ';' - 
+enter it in the adjacent field
+label16.tltp=Phone numbers will be given to a standard international format like a "+3(7)80..." or "0_operator_code"
+label17.tltp=If your phone doesn't accept vCard with all of the contacts and only accepts them one-by-one in a separate files - check this option
+check4.tltp=If the very first line of the CSV-file contains the fields names - do not check this option
+check5.tltp=Entire .VCF-file will be encoded to the codepage mentioned above if this option is checked, otherwise NAME, F.NAME and JOB fields only
+label21.tltp=Entire .VCF-file will be encoded to the codepage mentioned above if this option is checked, otherwise NAME, F.NAME and JOB fields only
+check6.tltp=BOM (byte order mark), designed to define Unicode 
+representation format, will be written at the file start, if this option is checked
+label25.tltp=BOM (byte order mark), designed to define Unicode 
+representation format, will be written at the file start, if this option is checked
+
+MsgNoContactsNames=Names/surname fields not specified. Skip?
+MsgNoDelim=CSV-file delimiter not specified
+MsgNoFileSel=Select import file first
+MsgNoImportFldSel=Select at least one field to import
+MsgNoOutputFolder=Select VCF-file saving catalog
+MsgNoPhotoType=Type of PHOTO field isn't selected. Skip?
+MsgProcessFinished=Process finished
+MsgAttention=Attention
+
+[ru]
+lang=Русский
+label1=Выберите CSV-файл для конвертации
+label3=Укажите соответствие полей
+label11=Укажите каталог для сохранения VCF-файла
+label12=Укажите имя для выходного файла VCF
+command4=Выход
+command5=О программе
+label13=Символ-разделитель полей в CSV-файле
+optiongroup1.option1=cимвол табуляции
+optiongroup1.option2=cимвол пробела
+optiongroup1.option3=указать свой символ:
+optiongroup2.option1=Кирилица Windows (CP 1251) / не знаю
+label14=Укажите кодировку исходного файла
+optiongroup3.option1=Кирилица Windows (CP 1251) / не знаю
+label15=Укажите кодировку выходного файла
+label16=Приводить к стандартному виду номера мобильных телефонов?
+label17=Оформлять каждый контакт отдельным файлом (специально для китайфонов)
+label18=Адаптировать для импорта в Gmail
+optiongroup4.option3=не кодировать (оставить как есть) **
+label19=Кодировать поля 'NAME', 'F. NAME' и 'JOB' в:
+label20=** - попробуйте выбрать эту опцию, если есть проблемы с импортом контактов в Gmail
+check4= Считать первую сторку .CSV контактом?
+label21=Кодировать весь(все) файл(ы) .VCF в указанную кодировку
+label23=* - если поле F.NAME в выбранном файле отсутсвует или его значение такое же, как и NAME - можно оставить выпадающий список для F.NAME пустым (оно будет заполнено значением из поля NAME)
+label24=тип
+label25=Добавить метку BOM при кодировании всего файла
+
+label12.tltp=Расширение можно опустить. Если вы не укажете имени файла программа втоматически сгенерирует его в формате: ДД_ММ_ГГГГ_ЧЧхММхСС.VCF. Например:  01_01_2011_13x29x34.vcf
+check1.tltp=Номера телефонов будут приведены к стандартному международному формату типа "+3(7)80..." либо к виду "0_код_оператора_номер"
+check2.tltp=Если телефон отказывается принимать файл vCard со всеми контактами, а только по одному "человеку" в отдельном файле - отметьте эту галочку
+label13.tltp=Если поля вашего CSV-файла разделены символом отличным от ";", укажите его в соседнем текстовом поле
+label16.tltp=Номера телефонов будут приведены к стандартному международному формату типа "+3(7)80..." либо к виду "0_код_оператора_номер"
+label17.tltp=Если телефон отказывается принимать файл vCard со всеми контактами, а только по одному "человеку" в отдельном файле - отметьте эту галочку
+check4.tltp=Не отмечайте эту опцию, если в первой строке CSV-файла содержатся названия полей
+check5.tltp=Если эта опция отмечена - весь исходный .VCF файл(все файлы) будет кодирован в указанную выше кодировку, иначе - только текстовые поля(NAME, F.NAME, JOB).
+label21.tltp=Если эта опция отмечена - весь исходный .VCF файл(все файлы) будет кодирован в указанную выше кодировку, иначе - только текстовые поля(NAME, F.NAME, JOB)
+check6.tltp=Если эта опция отмечена - в начало файла будет записана так называемая BOM-метка (byte order mark), предназначенная для определения формата представления Юникода
+label25.tltp=Если эта опция отмечена - в начало файла будет записана так называемая BOM-метка (byte order mark), предназначенная для определения формата представления Юникода
+
+MsgNoContactsNames=Не указаны имена/фамилии контактов. Продолжить без указания полей имен/фамилий?
+MsgNoDelim=Не указан разделитель полей для CSV-файла
+MsgNoFileSel=Сначала выберите файл для импорта
+MsgNoImportFldSel=Укажите хотя бы одно поле для импорта
+MsgNoOutputFolder=Укажите каталог для соханения VCF-файла
+MsgNoPhotoType=Не указан тип изображения для поля PHOTO. Продолжить без указания типа?
+MsgProcessFinished=Процесс завершен
+MsgAttention=Внимание
+
+[ua]
+lang=Українська
+label1=Виберіть CSV-файл для конвертації
+label3=Вкажіть відповіднсть полів
+label11=Вкажіть каталог для збереження VCF-файлу
+label12=Вкажіть им'я для вихідного файлу VCF
+command4=Вихід
+command5=Про програму
+label13=Символ-роздільник полів у CSV-файлі
+optiongroup1.option1=cимвол табуляції
+optiongroup1.option2=cимвол пробілу
+optiongroup1.option3=вказати свій символ:
+optiongroup2.option1=Кирилиця Windows (CP 1251) / не знаю
+label14=Вкажіть кодування вхідного файлу
+optiongroup3.option1=Кирилиця Windows (CP 1251) / не знаю
+label15=Вкажіть кодування вихідного файлу
+label16=Приводити до стандартного вигляду номера мобільних телефонів?
+label17=Оформляти кожний контакт окремим файлом (спеціально для китайфонів)
+label18=Адаптувати для імпорту в Gmail
+optiongroup4.option3=не кодувати (залишити як є) **
+label19=Кодувати поля 'NAME', 'F. NAME' и 'JOB' у:
+label20=** - спробуйте вибрати цю опцію, якщо є проблеми з імпортом контактів в Gmail
+check4= Вважати першу сторку .CSV контактом?
+label21=Кодувати весь(усі) файл(и) .VCF у вказане кодування
+label23=* - якщо поле F.NAME у вибраному файлі відсутнє або його значення таке ж, як і NAME - можна залишити випадаючий список для F.NAME пустим (він буде заповнений значенням із поля NAME)
+label24=тип
+label25=Додати мітку BOM при кодуванні всього файлу
+
+label12.tltp=Розширення можно опустити. Якщо ви не вкажете імені файлу програма автоматично згенерує його у форматі: ДД_ММ_РРРР_ГГхХХхСС.VCF. Наприклад:  01_01_2011_13x29x34.vcf
+check1.tltp=Номери телефонів будуть приведені до стандартного міжнародного формату типу "+3(7)80..." або до вигляду "0_код_оператора_номер"
+check2.tltp=Якщо телефон відмовляється приймати файл vCard зі всіма контактами, а тільки по одній "людині" в окремому файлі - відмітьте цю опцію
+label13.tltp=Якщо поля вашого CSV-файлу розділені символом відмінним від ";", вкажіть його його у сосідньому текстовому полі
+label16.tltp=Номери телефонів будуть приведені до стандартного міжнародного формату типу "+3(7)80..." або до вигляду "0_код_оператора_номер"
+label17.tltp=Якщо телефон відмовляється приймати файл vCard зі всіма контактами, а тільки по одній "людині" в окремому файлі - відмітьте цю опцію
+check4.tltp=Не відмічайте цю опцію, якщо у першому рядку CSV-файлу містяться назви полів
+check5.tltp=Якщо ця опція відмічена - весь вихідний .VCF файл(усі файли) буде закодований у вказане вище кодування, в іншому випадку - тільки текстові поля(NAME, F.NAME, JOB)
+label21.tltp=Якщо ця опція відмічена - весь вихідний .VCF файл(усі файли) буде закодований у вказане вище кодування, в іншому випадку - тільки текстові поля(NAME, F.NAME, JOB)
+check6.tltp=Якщо ця опція відмічена - на початку файлу буде записана так звана BOM-мітка (byte order mark), призначена для визначення формату вигляду Юнікоду
+label25.tltp=Якщо ця опція відмічена - на початку файлу буде записана так звана BOM-мітка (byte order mark), призначена для визначення формату вигляду Юнікоду
+
+MsgNoContactsNames=Не вказано імена/прізвища контактів. Продовжити не вказуючи полів імен/прізвищ?
+MsgNoDelim=Не вказано символу-роздільнику полів у CSV-файлі
+MsgNoFileSel=Спочатку виберіть файл для імпорту
+MsgNoImportFldSel=Вкажіть хоча б одне поле для імпорту
+MsgNoOutputFolder=Вкажіть каталог для збереження VCF-файлу
+MsgNoPhotoType=Не вказано тип зображення для поля PHOTO. Продовжити не вказуючи типу?
+MsgProcessFinished=Процес завершено
+MsgAttention=Увага

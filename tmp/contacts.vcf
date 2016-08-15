@@ -1,0 +1,100 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:1 { LUBIMAJA GENA } 1
+N:1;1 { LUBIMAJA GENA;};;
+EMAIL;TYPE=INTERNET:kisska.link@gmail.com
+TEL;TYPE=CELL:+380669665729
+TEL;TYPE=HOME:0544472555
+item1.TEL:*104*0669665729#
+item1.X-ABLabel:USSD
+TEL;TYPE=WORK:098 263 3098
+ADR:;;ул. Ковпака\, 7/32;;;;
+item2.URL:http\://www.google.com/profiles/116379705702640962121
+item2.X-ABLabel:PROFILE
+NOTE:Особисті: ЖЖ\: kisskaann.livejournal.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:3 { SERDYUK } 3
+N:3;3;{ SERDYUK };;
+item1.EMAIL;TYPE=INTERNET:radistmg@mail.ru
+item1.X-ABLabel:Спеціальна
+item2.EMAIL;TYPE=INTERNET:radistmg@rambler.ru
+item2.X-ABLabel:Спеціальна
+EMAIL;TYPE=INTERNET;TYPE=HOME:radistmg@gmail.com
+TEL;TYPE=CELL:+380509190302
+TEL;TYPE=PAGER:*1-04*0-509-190302#
+item3.TEL:+380666455427
+item3.X-ABLabel:Особисті
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Кравчук Борис Богданович
+N:Богданович;Кравчук;Борис;;
+EMAIL;TYPE=INTERNET;TYPE=WORK:kravchukb@hotmail.com
+TEL;TYPE=CELL:0506654345
+NOTE:Киевский городской центр сердца\n+38(044) 291-61-31\, +38(044) 513-24-
+ 46\, +38 (044) 291-61-95
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Bobr
+N:;Bobr;;;
+EMAIL;TYPE=INTERNET:demon.bobr@gmail.com
+TEL;TYPE=CELL:80992531757
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:EGIK_Gmail
+N:;EGIK_Gmail;;;
+EMAIL;TYPE=INTERNET:andrejgordeev@rambler.ru
+EMAIL;TYPE=INTERNET:andryg1980@gmail.com
+EMAIL;TYPE=INTERNET:max_wer@ukr.net
+item1.TEL:80661812638
+item1.X-ABLabel:Особисті
+item2.URL:http\://www.google.com/profiles/115098542403259100937
+item2.X-ABLabel:PROFILE
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:John
+N:;John;;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:lester.dev@gmail.com
+item1.TEL:80969355029
+item1.X-ABLabel:Особисті / Mobile
+TEL;TYPE=CELL:+380952532650
+TEL;TYPE=PAGER:*1-04*0-952-532650#
+item2.ADR:;;ул. Ленина\, 6/21;;;;
+item2.X-ABLabel:Особисті
+item3.URL:http\://www.google.com/profiles/117605941130026871186
+item3.X-ABLabel:PROFILE
+NOTE:Особисті: ЖЖ\: lester_dev.livejournal.com
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Kesh
+N:;Kesh;;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:yourkesh@gmail.com
+TEL;TYPE=CELL:0953190859
+TEL;TYPE=PAGER:*1-04*0-953-190859#
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Leha Cikavy
+N:Cikavy;Leha;;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:serius989@gmail.com
+TEL;TYPE=CELL:0666340207
+TEL;TYPE=PAGER:*104*663402076#
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:Mixer
+N:;Mixer;;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:demikseron@gmail.com
+EMAIL;TYPE=INTERNET;TYPE=HOME:mixermixlife@rambelr.ru
+EMAIL;TYPE=INTERNET;TYPE=HOME:mic.mixlife@gmail.com
+X-GTALK:mixer.mixlife@gmail.com
+TEL;TYPE=CELL:+380 99 548 2041
+ORG:GDPU
+TITLE:student
+END:VCARD

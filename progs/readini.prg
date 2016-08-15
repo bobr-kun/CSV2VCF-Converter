@@ -1,0 +1,42 @@
+FUNCTION ReadINI
+PARAMETERS FullFilePath, INISection, INIKey, CutOFFSpecialChars, ReturnAsNum
+LOCAL ReturnExpression, ReturnedSize
+
+	IF !FILE(FullFilePath)
+		RETURN .F.
+	ENDIF 
+	
+    DECLARE INTEGER GetPrivateProfileString ;      
+  		IN WIN32API ;      
+	  	STRING cSection, ;  
+	    STRING cEntry, ;      
+        STRING cDefault, ;      
+        STRING @cRetVal, ;      
+        INTEGER nSize, ;  
+        STRING cFileName
+	
+	ReturnExpression = SPACE(1024)
+	ReturnedSize	 = 0
+	
+	ReturnedSize = GetPrivateProfileString(INISection, INIKey, 'none', @ReturnExpression, LEN(ReturnExpression), FullFilePath)
+	
+	IF EMPTY(ReturnedSize)
+		RETURN .F. 
+	ELSE 
+		ReturnExpression = LEFT(ReturnExpression, ReturnedSize)
+	ENDIF 
+	
+	IF ReturnAsNum
+		RETURN VAL(ReturnExpression)
+	ELSE 
+		
+		IF CutOFFSpecialChars
+			ReturnExpression = CHRTRAN(ReturnExpression, CHR(0), '')
+			ReturnExpression = CHRTRAN(ReturnExpression, CHR(10), '')
+			ReturnExpression = CHRTRAN(ReturnExpression, CHR(13), '')
+		ENDIF 
+		
+		RETURN ALLTRIM(ReturnExpression)
+	ENDIF 
+ 
+RETURN .F. 

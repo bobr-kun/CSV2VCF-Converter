@@ -1,0 +1,48 @@
+FUNCTION startup
+	SET CONSOLE OFF
+	SET ESCAPE OFF 
+*	SET STATUS ON 
+*	SET STATUS BAR ON 	
+	SET SYSMENU TO 
+	 
+	SET CENTURY ON
+	SET CONFIRM ON 	
+	SET DATE GERMAN 
+	SET DELETED ON 
+	SET EXACT ON 
+	SET EXCLUSIVE OFF
+	SET HOURS TO 24
+	SET MARK TO '.'
+	SET MULTILOCKS ON 		
+	SET REPROCESS TO 4 SECONDS
+	SET SAFETY OFF 	
+	SET TALK OFF 
+	SET TABLEPROMPT OFF
+	
+	ON SHUTDOWN QUIT
+	
+	_INCSEEK = 2
+	
+	IF VERSION(5) = 900
+		SET VARCHARMAPPING ON 
+	ENDIF 
+   
+    IF !FILE('config.fpw', 2)
+        STRTOFILE('SCREEN=OFF' + CHR(13) + 'CODEPAGE=1251', 'config.fpw')
+        WshShell = CreateObject("WScript.Shell")
+        WshShell.Run('csvvcf.exe')
+        QUIT 
+    ENDIF     
+    
+*   ERASE 'foxuser*'
+    
+    SET PROCEDURE TO 'progs\error_handler.prg', 'progs\ReadINI.prg'
+    ON ERROR DO error_handler WITH .F., ERROR(), MESSAGE(), MESSAGE(1), PROGRAM(), PROGRAM(0), LINENO()
+	
+	DO FORM 'forms\main'
+	
+	READ EVENTS
+    
+	CLOSE ALL 
+ 	QUIT  
+RETURN
